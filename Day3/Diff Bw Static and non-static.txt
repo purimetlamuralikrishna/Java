@@ -1,0 +1,12 @@
+	Static varibles:
+		- varibles in a Class which having static keyword in them are Static varibles.
+		- this static varibles can be accessed at any where by using class.varible name.
+		- this are allocated in the RAM when java application is launched
+
+
+
+	Non-Static varibles:
+		- varibles in a Class by default are non-static varibles.
+		- they do not contain any keywords.
+		- this static varibles can be accessed by an object created by that class.
+		- this are allocated in RAM by dynamically by creating object by that class
