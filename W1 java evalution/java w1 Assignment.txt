@@ -1,0 +1,25 @@
+String:
+	- String is a pre defined class
+	- Strings are premitive data types which are immutable.Because when the String value is defined they are stored in a String pool area in RAM.
+	- In this String pool area the values cannot modified.
+	- String are premitive data types so they cannot me modified.
+
+Difference between String and String Builder
+
+	- the value created by String are immutable but the value created by StringBuilder are mutable.
+	- String cannot be modified where as Stringbuilder can be modified.
+	- String values are stored in string pool area where stringBuilders has a reference address.
+
+Methods Of String Class:
+
+	- .length returns the length of the string.
+		eg: String name = "Murali";
+			System.out.println(name.length); // output is 6
+	-.charAt(int i)  returns the charvalue at the index[i]
+		eg:     System.out.println(name.charAt(0)); //output is 'M'
+
+	- .concat this method concatinates the one to another string but the original string remains same.
+		eg:     System.out.println(name.concat("Krishna")); // output is "MuraliKrishna"
+
+	- .trim this method removes the spaces of the string at start and end position of the string.
+		eg:    name.trim()
