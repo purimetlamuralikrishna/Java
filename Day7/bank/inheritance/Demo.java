@@ -6,12 +6,14 @@ public class Demo {
 	
 	public static Bank getBank(String bank) {
 		
-		if(bank =="axis") {
+		if(bank .equals("axis")) {
 			AxisBank axis = new AxisBank("Axis","axis00003255");
+			axis.rateOfIntrest = 7.5;
 			return axis;
 		}
-		else if(bank=="icici") {
-			IciciBank icici = new IciciBank("ICICI","ic003587");
+		else if(bank.equals("icici")) {
+			IciciBank icici = new IciciBank("ICICI","icici00254");
+			icici.rateOfIntrest = 7.1;
 			return icici;
 		}
 		
