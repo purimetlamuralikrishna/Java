@@ -1,0 +1,15 @@
+Access Modifiers are of 4types:
+
+1----> private
+2----> public
+3----> default
+4----> protected
+
+
+public Modifer:   this can be accessed in any packages
+
+private Modifier: this can be accessed within class
+
+default Madifer:  if no modifer keyword is given thin it will be created as default modifer.this can be accessad within same package
+
+protected Modifer: if the class is created by parent cna be accessed by another package
