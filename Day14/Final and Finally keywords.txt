@@ -1,0 +1,42 @@
+Final keyword:
+	
+	Final keyword is used in java before varibles,methods,classes to make as constant.
+	1--> if final is used in varable then the varible cannot be changed. It works as a constant
+	2--> If final is used in methods then method cannot be overrided.
+	3--> If final is used for class then the cannot be inherited.
+
+
+	Example:
+			class Main{
+				final String name = "Murali";
+				
+				final void print(){
+					system.out.println("Hello"+name);
+				}
+				public void main(String[] args){
+					Main message = new Main();
+					message.print();
+				}		
+
+
+
+Finally keyword:
+
+
+	--> The finally keyword is used to execute code 
+	--> It is used with exceptions - try.. catch statements
+	--> if the try gets success or error but filally will defenitly works.
+	--> It wont depends of the try-catch.
+
+	Example:
+
+
+		try{
+			// logical statement
+		}
+		catch{
+			//error message
+		}
+		finally{
+			//closes
+		}
